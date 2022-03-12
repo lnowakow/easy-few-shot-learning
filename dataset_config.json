@@ -1,0 +1,12 @@
+{
+    "images_dir" : "/home/ubuntu/workspace/create_train_set/data/rgb_images_spag_&_bckg_proc",
+    "labels_dir" : "/home/ubuntu/workspace/create_train_set/data/yolo-labels",
+    "class_names": [
+        "spaghetti",
+        "not_spaghetti"   
+    ],
+    "class_roots": [
+        "/home/ubuntu/workspace/datasets/fsl_datasets/classes/spaghetti",
+        "/home/ubuntu/workspace/datasets/fsl_datasets/classes/not_spaghetti"
+    ]
+}
