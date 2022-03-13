@@ -136,3 +136,4 @@ data/CUB/images
 data/omniglot-py
 *.tgz
 *.tar
+notebooks/data/*
