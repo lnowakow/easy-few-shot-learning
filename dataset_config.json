@@ -1,12 +1,12 @@
 {
-    "images_dir" : "/home/ubuntu/workspace/create_train_set/data/rgb_images_spag_&_bckg_proc",
+    "images_dir" : "/home/ubuntu/workspace/datasets/3d-printers",
     "labels_dir" : "/home/ubuntu/workspace/create_train_set/data/yolo-labels",
     "class_names": [
         "spaghetti",
-        "not_spaghetti"   
+        "not_spaghetti"
     ],
     "class_roots": [
-        "/home/ubuntu/workspace/datasets/fsl_datasets/classes/spaghetti",
-        "/home/ubuntu/workspace/datasets/fsl_datasets/classes/not_spaghetti"
+        "/home/ubuntu/workspace/datasets/fsl_datasets/train_set/classes/spaghetti",
+        "/home/ubuntu/workspace/datasets/fsl_datasets/train_set/classes/not_spaghetti"
     ]
 }

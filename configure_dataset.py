@@ -6,7 +6,7 @@ import numpy as np
 import shutil
 
 fsl_path = "/home/ubuntu/workspace/datasets/fsl_datasets/classes"
-images_path = "/home/ubuntu/workspace/create_train_set/data/rgb_images_spag_&_bckg_proc/*"
+images_path = "/home/ubuntu/workspace/datasets/3d-printers/*"
 labels_path = "/home/ubuntu/workspace/create_train_set/data/yolo-labels/*"
 
 images = [[os.path.basename(os.path.splitext(x)[0]), os.path.splitext(x)[1]] for x in glob.glob(images_path)]
